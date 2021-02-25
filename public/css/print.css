@@ -1,0 +1,16 @@
+@media print {
+ 
+
+
+    @page {
+      size: A4;
+      margin: 1cm;
+    }
+    
+    @media print {
+      html, body {
+        width: 210mm;
+        height: 297mm;
+      }
+    }
+}
